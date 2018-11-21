@@ -1,6 +1,6 @@
 # vodomg-litelement
 
-Een wrapper rond Polymer LitElement die het bare import probleem oplost.
+Een wrapper rond Polymer LitElement die het bare import probleem oplost. Polymer heeft bijvoorbeeld vanaf versie 3.0. ondersteuning voor bare imports en zet deze bij het builden om in relatieve paden. Aangezien deze elementen ook gebruikt (moeten) kunnen worden in niet Polymer applicaties, zorgt deze component zelf recursief voor de relatieve paden.
 
 ## Installatie
 
